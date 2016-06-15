@@ -37,6 +37,6 @@ class ContactoMail(View):
         if form.is_valid():
             asunto = 'Este es un mensaje de mi BLOG con DJANGO'
             mensaje = form.cleaned_data['mensaje']
-            mail = EmailMessage(asunto, mensaje, to=['info@zastask.com'])
+            mail = EmailMessage(asunto, mensaje, to=['makiki789@gmail.com'])
             mail.send()
         return redirect('correo:home')

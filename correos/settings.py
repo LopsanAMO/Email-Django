@@ -124,7 +124,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 EMAIL_USE_TLS = True
-EMAIL_HOST = 'smtp.office365.com'
-EMAIL_HOST_USER = 'lmolinao1200@alumno.ipn.mx'
-EMAIL_HOST_PASSWORD = 'MOOL2041'
+#EMAIL_HOST = 'smtp.office365.com'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'makiki789@gmail.com'
+EMAIL_HOST_PASSWORD = 'Elpayasoeso12345'
 EMAIL_PORT = 587
