@@ -124,8 +124,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 EMAIL_USE_TLS = True
-#EMAIL_HOST = 'smtp.office365.com'
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'Aqui va tu correo de gmail'
-EMAIL_HOST_PASSWORD = 'Aqui va tu contraseña de gmail'
+EMAIL_HOST_USER = 'correo gmail'
+EMAIL_HOST_PASSWORD = 'contraseña gmail'
 EMAIL_PORT = 587
